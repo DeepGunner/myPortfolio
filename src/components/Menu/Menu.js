@@ -192,7 +192,7 @@ class Menu extends Component {
                   color="white"
                   href="mailto:deepindersingh.23@gmail.com"
                 >
-                  deepindersingh.23@gmail.com
+                  
                 </A>
               </p>
             </RevealUp>

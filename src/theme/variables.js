@@ -21,7 +21,7 @@ export const blue = 'rgba(145,189,207, 1)'; // Blueish
 export const gray = '#828282';
 
 export const menuBackground = gray;
-export const menuTextColor = color3;
+export const menuTextColor = color2;
 
 export const backgroundColor = color5;
 export const textColor = color1;
