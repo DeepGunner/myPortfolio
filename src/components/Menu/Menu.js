@@ -157,11 +157,11 @@ class Menu extends Component {
               <RevealUp show={menuOpen}>
                 <h1>
                   <A
-                    toColor={color3}
-                    color={menuTextColor}
-                    onClick={() => goTo("https://www.github.com/deepgunner/myPortfolio")}
+                    color={color3}
+                    toColor={menuTextColor}
+                    href={'https://github.com/deepgunner/myPortfolio'}
                   >
-                    HOW I CREATED THIS PORTFOLIO
+                    HOW I MADE THIS PORTFOLIO
                   </A>
                 </h1>
               </RevealUp>
