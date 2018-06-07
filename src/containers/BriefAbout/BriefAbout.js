@@ -586,7 +586,7 @@ class AboutMe extends Component {
                     <LeftP className={c({ hide: !show })}>
                       <span style={{ display:"inline"}}> 
                           <ul style={{float:"left", left:"50%"}}>
-                          <li style={{display:"inline-block", marginLeft:"35%"}}><h4>YOU CAN REACH ME HERE:</h4></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><h4>YOU CAN REACH ME HERE:</h4></li>
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="mailto:deepindersingh.23@gmail.com"><h4><i className="fa fa-envelope"></i></h4></a></li>
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.linkedin.com/singh-deepinder"><h4><i className="fa fa-linkedin"></i></h4></a></li>
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.github.com/deepgunner"><h4><i className="fa fa-github"></i></h4></a></li>
