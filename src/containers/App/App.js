@@ -41,6 +41,7 @@ const Background = styled(DivWithBgImage).attrs({
   height: 80vh;
   ${media.tablet`
     top: 0;
+    background-image: url(${require('assets/jquery.png')});
     background-repeat: no-repeat;
     background-size: cover
     left: 0;
