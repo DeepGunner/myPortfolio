@@ -29,6 +29,7 @@ const Background = styled(DivWithBgImage).attrs({
 })`
   position: fixed;
   background-image: url(${require('assets/body-background.png')});
+  background-repeat: no-repeat;
   background-color: ${backgroundColor};
   background-size: 100%;
   background-position: center center;
