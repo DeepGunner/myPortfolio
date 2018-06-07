@@ -31,10 +31,10 @@ const Background = styled(DivWithBgImage).attrs({
   background-image: url(${require('assets/body-background.png')});
   background-repeat: no-repeat;
   background-color: ${backgroundColor};
-  background-size: 100%;
+  background-size: cover
   background-position: center center;
   z-index: -99;
-  opacity: 0.08;
+  opacity: 0.009;
   top: 10vh;
   left: 10vw;
   width: 80vw;
@@ -42,6 +42,7 @@ const Background = styled(DivWithBgImage).attrs({
   ${media.tablet`
     top: 0;
     background-repeat: no-repeat;
+    background-size: cover
     left: 0;
     width: 100vw;
     height: 100vh;
