@@ -2,7 +2,7 @@
   "name": "portfolio4_v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:///DeepGunner.github.io/Portfolio",
+  "homepage": "http:///DeepGunner.github.io/myPortfolio",
   "devDependencies": {
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
