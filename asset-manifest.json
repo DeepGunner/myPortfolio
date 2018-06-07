@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.d41d8cd9.css",
   "main.css.map": "static/css/main.d41d8cd9.css.map",
-  "main.js": "static/js/main.223987f8.js",
-  "main.js.map": "static/js/main.223987f8.js.map",
+  "main.js": "static/js/main.2cc63f99.js",
+  "main.js.map": "static/js/main.2cc63f99.js.map",
   "static/media/3.jpg": "static/media/3.76c41641.jpg",
   "static/media/4595.jpg": "static/media/4595.e2c0d83f.jpg",
   "static/media/body-background.png": "static/media/body-background.58691aa1.png",
@@ -15,6 +15,7 @@
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/fungry-s.jpeg": "static/media/fungry-s.de3b34d7.jpeg",
   "static/media/fungry.jpeg": "static/media/fungry.84099bc3.jpeg",
+  "static/media/jquery.png": "static/media/jquery.3420e571.png",
   "static/media/pusha.mp3": "static/media/pusha.0b367ba9.mp3",
   "static/media/rca-s.jpeg": "static/media/rca-s.bfda6506.jpeg",
   "static/media/rca.jpeg": "static/media/rca.743899fe.jpeg",
