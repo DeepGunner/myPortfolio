@@ -42,6 +42,17 @@ const Container = styled(Flex)`
     margin-top: 25px;
   }
 
+  a:visited,
+  a:focus,
+  a:active,
+  a:-webkit-any-link {
+    color: ${menuTextColor};
+  }
+
+  a {
+    font-family: inherit;
+  }
+
   ${media.tablet`
     h1 {
       font-size: 1.5em;
@@ -168,8 +179,8 @@ class Menu extends Component {
               <RevealUp show={menuOpen}>
                 <h1>
                   <A
-                    style={{color:"rgb(253, 238, 108)"}}
-                    
+                    color={color3}
+                    toColor={menuTextColor}
                     href={'https://standardresume.co/Deepinder'}
                   >
                     RESUME
