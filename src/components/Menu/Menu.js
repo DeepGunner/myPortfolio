@@ -66,7 +66,6 @@ const Content = styled(Relative)`
 
 const Background = styled.div`
   position: fixed;
-  background-image: url(${require("assets/body-background.png")});
   background-size: 100%;
   background-position: center center;
   top: 0;
@@ -160,7 +159,7 @@ class Menu extends Component {
                   <A
                     toColor={color3}
                     color={menuTextColor}
-                    onClick={() => goTo("www.github.com/deepgunner/myPortfolio")}
+                    onClick={() => goTo("https://www.github.com/deepgunner/myPortfolio")}
                   >
                     HOW I CREATED THIS PORTFOLIO
                   </A>
@@ -173,7 +172,7 @@ class Menu extends Component {
                     toColor={menuTextColor}
                     href={'https://standardresume.co/Deepinder'}
                   >
-                    Resume
+                    RESUME
                   </A>
                 </h1>
               </RevealUp>
