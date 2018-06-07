@@ -181,7 +181,7 @@ class Menu extends Component {
                   <A
                     color={color3}
                     toColor={menuTextColor}
-                    href={'https://standardresume.co/Deepinder'}
+                    href={'https://standardresume.co/deepinder'}
                   >
                     RESUME
                   </A>
