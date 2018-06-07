@@ -41,6 +41,7 @@ const Background = styled(DivWithBgImage).attrs({
   height: 80vh;
   ${media.tablet`
     top: 0;
+    background-repeat: no-repeat;
     left: 0;
     width: 100vw;
     height: 100vh;
