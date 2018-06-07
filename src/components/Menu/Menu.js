@@ -157,8 +157,8 @@ class Menu extends Component {
               <RevealUp show={menuOpen}>
                 <h1>
                   <A
-                    color={color3}
-                    toColor={menuTextColor}
+                    color={menuTextColor}
+                    
                     href={'https://github.com/deepgunner/myPortfolio'}
                   >
                     HOW I MADE THIS PORTFOLIO
@@ -168,8 +168,8 @@ class Menu extends Component {
               <RevealUp show={menuOpen}>
                 <h1>
                   <A
-                    color={color3}
-                    toColor={menuTextColor}
+                    style={{color:"rgb(253, 238, 108)"}}
+                    
                     href={'https://standardresume.co/Deepinder'}
                   >
                     RESUME
