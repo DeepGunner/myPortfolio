@@ -160,7 +160,7 @@ class Menu extends Component {
                   <A
                     toColor={color3}
                     color={menuTextColor}
-                    onClick={() => goTo("/aboutMe")}
+                    onClick={() => goTo("www.github.com/deepgunner/myPortfolio")}
                   >
                     HOW I CREATED THIS PORTFOLIO
                   </A>
@@ -169,8 +169,8 @@ class Menu extends Component {
               <RevealUp show={menuOpen}>
                 <h1>
                   <A
-                    color={'rgb(176, 230, 253)'}
-                    toColor={color3}
+                    color={color3}
+                    toColor={menuTextColor}
                     href={'https://standardresume.co/Deepinder'}
                   >
                     Resume
