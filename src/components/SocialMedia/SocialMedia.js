@@ -61,6 +61,10 @@ class SocialMedia extends Component {
           href="https://www.github.com/deepgunner">
           <h4><i className="fa fa-github"></i></h4>
         </a>
+        <a target="_blank"
+          href="tel:+919158440020">
+          <h4><i className="fa fa-phone"></i></h4>
+          </a>
       </Container>
     )
   }
