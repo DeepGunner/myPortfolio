@@ -587,10 +587,10 @@ class AboutMe extends Component {
                       <span style={{ display:"inline"}}> 
                           <ul style={{float:"center"}}>
                           <li style={{display:"inline-block", marginLeft:"-4%", fontSize:"16px"}}><h6>YOU CAN REACH ME HERE:</h6></li>
-                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="mailto:deepindersingh.23@gmail.com"><h4><i className="fa fa-envelope"></i></h4></a></li>
-                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.linkedin.com/singh-deepinder"><h4><i className="fa fa-linkedin"></i></h4></a></li>
-                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.github.com/deepgunner"><h4><i className="fa fa-github"></i></h4></a></li>
-                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="tel:+919158440020"><h4><i className="fa fa-phone"></i></h4></a></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="mailto:deepindersingh.23@gmail.com"><h5><i className="fa fa-envelope"></i></h5></a></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.linkedin.com/singh-deepinder"><h5><i className="fa fa-linkedin"></i></h5></a></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.github.com/deepgunner"><h5><i className="fa fa-github"></i></h5></a></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="tel:+919158440020"><h5><i className="fa fa-phone"></i></h5></a></li>
                           </ul>
                       </span>
                     </LeftP>
