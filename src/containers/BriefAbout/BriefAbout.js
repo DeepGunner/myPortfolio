@@ -590,7 +590,7 @@ class AboutMe extends Component {
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="mailto:deepindersingh.23@gmail.com"><h4><i className="fa fa-envelope"></i></h4></a></li>
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.linkedin.com/singh-deepinder"><h4><i className="fa fa-linkedin"></i></h4></a></li>
                           <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="https://www.github.com/deepgunner"><h4><i className="fa fa-github"></i></h4></a></li>
-                          <li style={{display:"inline-block", marginLeft:"4ç%"}}><a target="_blank" href="tel:+919158440020"><h4><i className="fa fa-phone"></i></h4></a></li>
+                          <li style={{display:"inline-block", marginLeft:"5%"}}><a target="_blank" href="tel:+919158440020"><h4><i className="fa fa-phone"></i></h4></a></li>
                           </ul>
                       </span>
                     </LeftP>
