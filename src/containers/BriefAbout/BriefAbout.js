@@ -33,9 +33,6 @@ const PAUSE_VIDEO1 = 'aboutMe/PAUSE_VIDEO1';
 const PLAY_VIDEO1 = 'aboutMe/PLAY_VIDEO1';
 const PAUSE_VIDEO2 = 'aboutMe/PAUSE_VIDEO2';
 const PLAY_VIDEO2 = 'aboutMe/PLAY_VIDEO2';
-const SEND = 'aboutMe/SEND';
-const SEND_SUCCESS = 'aboutMe/SEND_SUCCESS';
-const SEND_FAIL = 'aboutMe/SEND_FAIL';
 
 export function nextStep() {
   return { type: NEXT_STEP };
@@ -61,15 +58,7 @@ export function playVideo2() {
   return { type: PLAY_VIDEO2 };
 }
 
-export function sendForm(values) {
-  return {
-    types: [SEND, SEND_SUCCESS, SEND_FAIL],
-    promise: () => emailjs.send('gmail', 'deepindersingh.23@gmail.com', {
-      message_html: values.message,
-      from_name: `${values.name} (${values.email})`,
-    })
-  };
-}
+
 
 const roundDecimal = (val) => Math.round(val * 10) / 10;
 
@@ -94,12 +83,6 @@ export function reducer(state = initialState, action) {
       return { ...state, step: Math.floor(state.step) + 1 }
     case NEXT_PARTIAL_STEP:
       return { ...state, step: roundDecimal(state.step + action.amount) }
-    case SEND:
-      return { ...state, sending: true };
-    case SEND_SUCCESS:
-      return { ...state, sending: false };
-    case SEND_FAIL:
-      return { ...state, sending: false };
     default:
       return state;
   }
@@ -621,6 +604,6 @@ export default connect(
     playVideo1,
     pauseVideo2,
     playVideo2,
-    sendForm,
+   
   }
 )(AboutMe);

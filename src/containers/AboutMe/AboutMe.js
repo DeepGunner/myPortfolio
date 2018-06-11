@@ -1,7 +1,7 @@
 /* globals emailjs */
 import React, { Component } from 'react';
 import { RevealDiv, ProjectsContainer, Container, Relative } from 'theme/grid';
-import { A, FixedTitle } from 'theme/types';
+import {FixedTitle } from 'theme/types';
 import { connect } from 'react-redux';
 import c from 'classnames';
 import Video from 'components/Video/Video';
@@ -15,19 +15,9 @@ import { MusicPlayerContainer, PlayButton, StyledClickHereCircle, StyledVideoBlo
 
 
 import { OrderNumber as _OrderNumber } from 'theme/types';
-import { Div } from 'theme/grid';
-
-import {
-  OrderNumber,
-  InstallCode,
-  VerticalGuideLine,
-  Group,
-
- 
-} from './Projects.style';
 
 
-import DistortionImage from 'react-distortion-image';
+
 const NEXT_STEP = 'aboutMe/NEXT_STEP';
 const NEXT_PARTIAL_STEP = 'aboutMe/NEXT_PARTIAL_STEP';
 const PAUSE_VIDEO1 = 'aboutMe/PAUSE_VIDEO1';

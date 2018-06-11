@@ -1,17 +1,14 @@
 /* globals emailjs */
 import React, { Component } from 'react';
-import { RevealDiv, ProjectsContainer, Container, Relative } from 'theme/grid';
+import { ProjectsContainer, Container, Relative } from 'theme/grid';
 import { A, FixedTitle } from 'theme/types';
 import { connect } from 'react-redux';
 import c from 'classnames';
-import Video from 'components/Video/Video';
-import Waypoint from 'react-waypoint';
-import AudioPlayer from 'components/AudioPlayer/AudioPlayer';
+
 
 import WaypointShow from 'components/WaypointShow/WaypointShow';
-import { color3 } from 'theme/variables';
-import ReactPlayer from 'react-player';
-import { MusicPlayerContainer, PlayButton, StyledClickHereCircle, StyledVideoBlock, LeftP, RightP, AudioLine,  NormalImageStuff, } from './styles';
+
+import {LeftP} from './styles';
 
 
 import { OrderNumber as _OrderNumber } from 'theme/types';
@@ -108,7 +105,7 @@ export function reducer(state = initialState, action) {
 
 class AboutMe extends Component {
   render() {
-    const { step, nextStep, pauseVideo1, playVideo1, video1Playing} = this.props;
+    const { step} = this.props;
    
 
     return (

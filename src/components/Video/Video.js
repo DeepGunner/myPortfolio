@@ -2,11 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import styled from 'styled-components';
 import ReactPlayer from 'react-player';
 import { Motion, spring } from 'react-motion';
-import  SquareCursor from 'components/SquareCursor/SquareCursor';
-import  Triangle from 'components/Triangle/Triangle';
 import { enableScrolling, disableScrolling } from 'scroll';
 import { connect } from 'react-redux';
-import { color3 } from 'theme/variables';
 
 const Container = styled.div`
   width: 100%;
@@ -30,21 +27,8 @@ const PlayerContainer = styled.div`
   margin-right: auto;
 `;
 
-const StyledTriangle = styled(Triangle)`
-  position: absolute;
-  top: 50%;
-  left: 0;
-  z-index: 1;
-`;
 
-const StyledSquareCursor = styled(SquareCursor)`
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 1;
-`;
+
 
 class Video extends Component {
   static propTypes = {
@@ -161,7 +145,7 @@ class Video extends Component {
 
   render() {
     const { videoUrl, playing } = this.props;
-    const { zoom, hover, cursorPosition, moveDown, moveLeft, expandWidth, expandHeight, maxVideoSize, moveVideoLeft, videoContainerPosition, placeholderWidth, placeholderHeight } = this.state;
+    const { zoom,moveDown, moveLeft, expandWidth, expandHeight, maxVideoSize, moveVideoLeft, videoContainerPosition, placeholderWidth, placeholderHeight } = this.state;
     
     const motionStyle = zoom ? {
       videoSize: spring(maxVideoSize),
@@ -211,20 +195,7 @@ class Video extends Component {
                       cursor: zoom ? 'none' : 'pointer'
                       // Hide the cursor when it's zoomed.
                     }}>
-                    <StyledSquareCursor
-                      color={color3}
-                      show={zoom}
-                      style={{
-                        top: cursorPosition.top,
-                        left: cursorPosition.left,
-                      }}
-                    />
-                    <StyledTriangle
-                      color={color3}
-                      hover={hover}
-                      style={{
-                        transform: `translate(${triangleLeft}%, -50%)`
-                      }}/>
+                   
                     <div style={{
                       transform: `translateX(${moveVideoLeft}px)`
                     }}>

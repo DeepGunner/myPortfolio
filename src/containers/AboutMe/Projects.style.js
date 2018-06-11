@@ -1,14 +1,9 @@
 import styled, { css, keyframes } from 'styled-components';
 import { OrderNumber as _OrderNumber } from 'theme/types';
 import { Relative } from 'theme/grid';
-import _Square from 'components/Square/Square';
 import { color1, color2 } from 'theme/variables';
 import media from 'theme/media';
 import SketchyArrow from 'components/SketchyArrow/SketchyArrow';
-// import GlitchImage from 'react-glitch';
-import Image8Bit from 'react-8bit';
-import FoldImage from 'react-fold-image';
-
 const easeFunction = 'cubic-bezier(0.645, 0.045, 0.355, 1)';
 const transitionDuration = '1s';
 
@@ -86,13 +81,7 @@ export const VerticalGuideLine = styled.p`
   margin: 0;
 `;
 
-export const Square = styled(_Square)`
-  position: absolute;
-  top: 0;
-  left: 20px;
-  transform: translate(0, -50%);
-  z-index: 2;
-`;
+
 
 export const Group = styled(Relative)`
   margin-bottom: 130px;
@@ -131,38 +120,4 @@ export const StyledSketchyArrow = styled(SketchyArrow)`
   left: 60%;
   transform: translate(-50%, -100%) rotateY(180deg);
   z-index: -1;
-`;
-
-// export const StyledGlitchImage = styled(GlitchImage)`
-//   width: 400px;
-//   cursor: pointer;
-//   display: inline-block;
-//   ${media.tablet`
-//     width: 100%;
-//   `}
-// `;
-
-export const StyledImageBefore8Bit = styled.img`
-  width: 300px;
-  display: block;
-  ${media.tablet`
-    width: 29vw;
-  `}
-`;
-
-export const StyledImageAfter8Bit = styled(Image8Bit)`
-  width: 300px;
-  margin-left: 50px;
-  display: block;
-  ${media.tablet`
-    margin-left: 50px;
-    width: 29vw;
-  `}
-`;
-
-export const StyledFoldImage = styled(FoldImage)`
-  width: 600px;
-  ${media.tablet`
-    width: 100%;
-  `}
 `;

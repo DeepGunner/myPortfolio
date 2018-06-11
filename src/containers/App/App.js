@@ -10,7 +10,6 @@ import PreviousArrow from 'components/PreviousArrow/PreviousArrow';
 import { Fixed } from 'theme/grid';
 import { backgroundColor, color2 } from 'theme/variables';
 import media from 'theme/media';
-// import TransitionGroup from 'react-transition-group/TransitionGroup';
 import NavMenu from 'components/NavMenu/NavMenu';
 import { Tablet, NonTablet } from 'components/Media/Media';
 import DivWithBgImage from 'components/DivWithBgImage/DivWithBgImage';
