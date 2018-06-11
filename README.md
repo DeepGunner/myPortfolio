@@ -1,4 +1,4 @@
-# Tutorial: Build a portfolio with ReactJS
+# Resources used for building the portfolio:
 
-## Youtube Tutorial:
-Part1: [Create-react-app and Styled-components](https://youtu.be/QR40RON4S-4)
+# Youtube Tutorial:
+https://www.youtube.com/watch?v=QR40RON4S-4&list=PLeQcRHIS0mbiyZ4rrbfu7CSfCTT0t4lSD
