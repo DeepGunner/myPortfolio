@@ -11,9 +11,8 @@ import WaypointShow from 'components/WaypointShow/WaypointShow';
 import { color3 } from 'theme/variables';
 import ReactPlayer from 'react-player';
 import { MusicPlayerContainer, PlayButton, StyledClickHereCircle, StyledVideoBlock, LeftP, RightP, AudioLine,  NormalImageStuff, } from './styles';
+import $ from 'jquery'
 
-
-import { OrderNumber as _OrderNumber } from 'theme/types';
 import { Div } from 'theme/grid';
 
 import {
@@ -89,13 +88,31 @@ export function reducer(state = initialState, action) {
 }
 
 class AboutMe extends Component {
+  componentDidMount() {
+    $(window).scroll(function() {
+
+      if ($(this).scrollTop()>0)
+       {
+          $('.hidden').fadeOut();
+       }
+      else
+       {
+        $('.hidden').fadeIn();
+       }
+   });
+  
+  }
+
+
+
+  
   render() {
     const { step, nextStep, pauseVideo1, playVideo1, video1Playing } = this.props;
    
 
     return (
       <div>
-        <FixedTitle><div style={{backgroundColor : 'transparent'}}>Deepinder Singh</div></FixedTitle>
+        <FixedTitle><span>D</span><span className="hidden">eepinder </span><span>S</span><span className="hidden">ingh</span></FixedTitle>
         <ProjectsContainer>
           <Container>
             <WaypointShow>
@@ -104,7 +121,7 @@ class AboutMe extends Component {
                   <span>
                     Hi there!
                     <br/><br/>
-                    So, as you already know that my name is Deepinder Singh.I am from Faridabad, India and I aspire to be a Front-End Developer.
+                    So, as you already know that my name is Deepinder Singh. I am from Faridabad, India and I aspire to be a Front-End Developer.
                   </span>
                 </LeftP>
               }
@@ -171,7 +188,7 @@ class AboutMe extends Component {
                   }
                 </WaypointShow>
                 
-<WaypointShow bottomOffset={250}>
+                <WaypointShow bottomOffset={100}>
               {({ show }) =>
                 <Group>
                   <Relative textLeft noOverflow>
@@ -204,7 +221,7 @@ class AboutMe extends Component {
             
              
             
-                <WaypointShow bottomOffset={250}>
+                <WaypointShow bottomOffset={1}>
               {({ show }) =>
                 <Group>
                   <Relative textLeft noOverflow>
@@ -350,6 +367,7 @@ class AboutMe extends Component {
                 </Relative>
               }
               </WaypointShow>
+              
               </div>
             }
 
