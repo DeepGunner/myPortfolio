@@ -112,7 +112,7 @@ class AboutMe extends Component {
 
     return (
       <div>
-        <FixedTitle><a href="https://deepgunner.github.io/myPortfolio/#/"><span>D</span><span className="hidden">eepinder </span><span>S</span><span className="hidden">ingh</span></a></FixedTitle>
+        <FixedTitle><a href="https://deepgunner.github.io/myPortfolio/#/" style={{color:"rgba(242, 95, 92, 1)", textDecoration:"none"}}><span>D</span><span className="hidden">eepinder </span><span>S</span><span className="hidden">ingh</span></a></FixedTitle>
         <ProjectsContainer>
           <Container>
             <WaypointShow>
