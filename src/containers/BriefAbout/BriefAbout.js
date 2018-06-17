@@ -121,7 +121,7 @@ class AboutMe extends Component {
                   <span>
                     Hi there!
                     <br/><br/>
-                    So, as you already know that my name is Deepinder Singh. ççI am from Faridabad, India and I aspire to be a Front-End Developer.
+                    So, as you already know that my name is Deepinder Singh. I am from Faridabad, India and I aspire to be a Front-End Developer.
                   </span>
                 </LeftP>
               }
