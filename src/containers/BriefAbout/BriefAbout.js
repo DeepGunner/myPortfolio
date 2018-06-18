@@ -112,7 +112,7 @@ class AboutMe extends Component {
 
     return (
       <div>
-        <FixedTitle><a href="https://deepgunner.github.io/myPortfolio/#/" style={{color:"rgba(242, 95, 92, 1)", textDecoration:"none"}}><span>D</span><span className="hidden">eepinder </span><span>S</span><span className="hidden">ingh</span></a></FixedTitle>
+        <FixedTitle><a href="#" style={{color:"rgba(242, 95, 92, 1)", textDecoration:"none"}}><span>D</span><span className="hidden">eepinder </span><span>S</span><span className="hidden">ingh</span></a></FixedTitle>
         <ProjectsContainer>
           <Container>
             <WaypointShow>
@@ -121,7 +121,7 @@ class AboutMe extends Component {
                   <span>
                     Hi there!
                     <br/><br/>
-                    So, as you already know that my name is Deepinder Singh. I am from Faridabad, India and I aspire to be a Front-End Developer.
+                    So, as you already know that my name is Deepinder Singh. I am from Delhi, India and I aspire to be a Front-End Developer.
                   </span>
                 </LeftP>
               }
