@@ -334,7 +334,7 @@ class AboutMe extends Component {
                   <Relative>
                     <Relative inline>
                       <VerticalGuideLine left>
-                      <A target="_blank" href="ttt-deep.herokuapp.com">Live Demo</A>
+                      <A target="_blank" href="http://ttt-deep.herokuapp.com/">Live Demo</A>
                       </VerticalGuideLine>
                       <DistortionImage
                         style={{ width: 600, height: 400, maxWidth: 'calc(100vw - 80px)',
