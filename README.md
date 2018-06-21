@@ -1,3 +1,6 @@
+# Deployed at : https://deepgunner.github.io/myPortfolio/#/
+
+
 # Resources used for building the portfolio:
 
 # Youtube Tutorial:
