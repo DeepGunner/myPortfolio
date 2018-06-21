@@ -1,6 +1,9 @@
 ### Deployed at : https://deepgunner.github.io/myPortfolio/#/
 
 
+
+
+
 ## Resources used for building the portfolio:
 
 Create react app boiler plate:
